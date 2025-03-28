@@ -15,7 +15,7 @@ for(let n of notas){
 }
 let cantidadNotas = notas.length
 let promedio = sum / cantidadNotas
-console.log("El promedio del estudiante es: " + promedio)
+console.log("El promedio del estudiante es: " + promedio.toFixed(2))
 }
 
 calcularPromedio(calificaciones)
